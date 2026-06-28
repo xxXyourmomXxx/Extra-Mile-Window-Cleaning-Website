@@ -1,245 +1,438 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="Professional window cleaning in Claresholm and Southern Alberta. Streak-free residential and commercial window cleaning. Call Extra Mile Window Cleaning LTD for a quote.">
-    <meta name="keywords" content="window cleaning Claresholm, Alberta window cleaners, residential window cleaning, commercial window cleaning Alberta, streak free windows">
-    <title>Window Cleaning Southern Alberta | Extra Mile Window Cleaning LTD</title>
-    <meta property="og:title" content="Extra Mile Window Cleaning LTD">
-    <meta property="og:description" content="Streak-free window cleaning in Claresholm & Southern Alberta.">
-    <meta property="og:image" content="images/window-cleaning-logo.png">
-    <meta property="og:type" content="website">
-    <link rel="icon" href="/images/window-cleaning-logo.png" sizes="32x32">
-    <link rel="icon" href="/images/window-cleaning-logo.png" sizes="192x192">
-    <link rel="shortcut icon" href="images/window-cleaning-logo.png" type="image/x-icon">
-    <style>
-        body{
-            margin: 0;
-            background-color: rgb(39, 49, 109);
-            outline: 5px solid rgb(244, 196, 22);       /* thickness, style, color */
-            outline-offset: -5px;         /* move outline inward to align with edges */
-            align-items: center;
-            align-content: center;
-            overflow-x: hidden;
-        }
-        .HEAD {
-            display: flex;
-            align-items: center;
-            align-content: center;
-            align-self: center;
-            flex-direction: column;
-            background-color: rgb(11, 26, 63);
-            margin: 0;
-            width: 100vw;
-            height: 45vh;
-            box-shadow: 0px 25px 25px rgb(11, 26, 63);
-        }
-        .HEAD button {
-            background-color: transparent;
-            color: white;
-            height: 3vw;
-            min-height: 30px;
-            width: auto;
-            border: none;
-            font-size: 50px;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            cursor: pointer;
-            margin:5px;
-            margin-top: 10px;
-            margin-bottom: 30px;
-        }
-        .INFO {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            text-align: center;
-            color: white;
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 70%;
-            margin: 50px;
-        }
-        .IMAGE {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .IMAGE img {
-            width: 40vw;
-            min-width: 400px;
-            height: auto;
-            border-radius: 20px;
-            box-shadow: 0px 25px 25px rgb(11, 26, 63);
-            position: relative;
-            right: -5vw;
-        }
-        .IMAGE video {
-            width: 40vw;
-            min-width: 150px;
-            max-width: 400px;
-            height: auto;
-            border-radius: 20px;
-            margin-bottom: 10px;
-            box-shadow: 0px 25px 25px rgb(11, 26, 63);
-            position: relative;
-            right: 8vw;
-            pointer-events: none;
-        }
-        .CIRCLELEFT {
-            border-radius: 50%;
-            background-color: rgb(244, 196, 22);
-            padding: 75px;
-            padding-top: 70px;
-            padding-left: 350px;
-            position: relative;
-            left: -40vw;
-            min-width: 300px;
-            max-width: 400px;
-            height: auto;
-            box-shadow: 0px 25px 25px rgb(11, 26, 63);
-        }
-        .CIRCLERIGHT {
-            border-radius: 50%;
-            background-color: rgb(244, 196, 22);
-            padding: 75px;
-            padding-top: 70px;
-            padding-right: 350px;
-            position: relative;
-            left: 40vw;
-            min-width: 300px;
-            max-width: 400px;
-            height: auto;
-            box-shadow: 0px 25px 25px rgb(11, 26, 63);
-        }
-        h1 {
-            text-shadow: 0px 3px 5px rgb(11, 26, 63);
-        }
-        .ContactInfo {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            width: 100vw;
-            height: 30vh;
-            background-color: rgb(11, 26, 63);
-            margin-top: 100px;
-            box-shadow: 0px -25px 25px rgb(11, 26, 63);
-            color: white;
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 2vh;
-        }
-        .phone-link {
-            margin:20px;
-        }
-        .STARTFX {
-            position: fixed;
-            top: -200px; /* start above screen */
-            left: 50%;
-            transform: translateX(-50%);
-            z-index: 9999;
-            pointer-events: none;
-            animation: fallDown 1.6s ease-in-out forwards;
-            width: 100vw;
-            height: auto;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-        }
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        .contact-btn {
-            background-color: transparent;
-            color: white;
-            height: 3vw;
-            min-height: 30px;
-            border: none;
-            font-size: 50px;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            cursor: pointer;
-            margin: 5px;
-            margin-top: 10px;
-            margin-bottom: 30px;
-            text-decoration: none;
-        }
-@keyframes fallDown {
-    from {
-        top: -200px;
-    }
-    to {
-        top: 100vh;
-    }
+    <title>
+        Professional Window Cleaning in Claresholm | Extra Mile Window Cleaning LTD
+    </title>
 
+    <meta name="description"
+        content="Extra Mile Window Cleaning LTD provides professional residential and commercial window cleaning in Claresholm, Nanton, High River, Okotoks and Southern Alberta.">
 
+    <meta name="keywords"
+        content="window cleaning Claresholm, window cleaners Alberta, commercial window cleaning, residential window cleaning">
 
-}
-    </style>
+    <link rel="icon" href="images/window-cleaning-logo.png">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
+
 <body>
-    <div class="HEAD">
-        <img src="images/window-cleaning-logo.png" alt="" style="margin: 0; margin-bottom: -50px; width: auto; height: 35vh;">
-        <a href="#contact" class="contact-btn">CONTACT</a>
-        <h1 style="color: rgb(244, 196, 22); font-size: medium; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; align-self: center; text-align: center;">LOCAL ALBERTA WINDOW CLEANING SPECIALISTS</h1>
-    </div>
-    <div class="INFO">
-        <div class="CIRCLELEFT"><h1>We are a locally owned and operated window cleaning company in Claresholm, Alberta. Our team is always going the extra mile to make sure your windows are squeeky clean!</h1></div>
-    </div>
-    <div class="IMAGE"><img tag="image of workers" src="images/Sales guys pic for website.png" alt="Professional window cleaners in Claresholm Alberta"></div>
-    <div class="INFO">
-        <div class="CIRCLERIGHT"><h1>Every window we clean will be streak free, and far better than it would be without us! kind of like our clients.</h1></div>
-    </div>
-    <div class="IMAGE"><video playsinline autoplay preload="auto" muted loop src="images/WINDOW CLEANING REEL_1.mp4" alt="Professional window cleaner cleaning a window"></video></div>
-    <div class="INFO">
-        <div class="CIRCLELEFT"><h1>Every window we clean gets the attention it needs! Our team takes pride in doing fantastic work at a reasonable rate, whether its sales, cleaning, or follow-ups, we always take good care of our clients.</h1></div>
-    </div>
-    <div class="IMAGE"><img style="margin-top: 100px;" tag="image of workers" src="images/BEFOREAFTER.png" alt="Before and after of windows that have been cleaned Professionaly"></div>
-    <p style="text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(244, 196, 22); margin-top: 100px; font-size: large;">Serving Claresholm, Nanton, High River, Okotoks, and surrounding Southern Alberta communities.</p>
 
 
-    <div class="ContactInfo" id="contact"> 
-        <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Request a quote today!</h1>
-        <a href="tel:5877283004" style="color: rgb(244, 196, 22); font-size: larger;" class="phone-link">📞 Call Us: +1 (587) 728-3004</a>
-        <a href="mailto:extramilewindows@gmail.com" style="color: rgb(244, 196, 22); font-size: larger;" class="email-link">✉ Email Us: extramilewindows@gmail.com</a>
-        <h1 style="color: rgb(244, 196, 22); font-size:medium;">19 Tamarack road, Claresholm, Alberta</h1>
+<header class="navbar">
+
+    <div class="logo">
+        <img src="images/window-cleaning-logo.png"
+             alt="Extra Mile Window Cleaning Logo">
     </div>
 
 
-    <img class="STARTFX" src="images/website FX.png">
+    <nav>
+
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+
+    <a class="nav-button" href="tel:5877283004">
+        Call Now
+    </a>
+
+
+</header>
+
+
+
+
+
+<section class="hero">
+
+
+<div class="hero-content">
+
+
+<h1>
+Professional Window Cleaning
+<br>
+Across Southern Alberta
+</h1>
+
+
+<p>
+Streak-free residential and commercial window cleaning.
+Locally owned in Claresholm and dedicated to going the extra mile.
+</p>
+
+
+<div class="hero-buttons">
+
+<a class="primary-button" href="#contact">
+Get A Free Quote
+</a>
+
+
+<a class="secondary-button" href="tel:5877283004">
+📞 587-728-3004
+</a>
+
+
+</div>
+
+
+<div class="rating">
+
+★★★★★
+
+<p>
+Trusted by homeowners and businesses throughout Southern Alberta
+</p>
+
+</div>
+
+
+</div>
+
+
+
+<div class="hero-image">
+
+<img src="images/Sales guys pic for website.png"
+alt="Professional window cleaners in Alberta">
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section class="trust">
+
+
+<div>
+<h3>✓ Locally Owned</h3>
+<p>Serving Claresholm and surrounding communities</p>
+</div>
+
+
+<div>
+<h3>✓ Professional Results</h3>
+<p>Clean, streak-free windows every time</p>
+</div>
+
+
+<div>
+<h3>✓ Reliable Service</h3>
+<p>We show up and do the job right</p>
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section id="services" class="section">
+
+
+<h2>
+Our Services
+</h2>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<h3>
+Residential Window Cleaning
+</h3>
+
+<p>
+Brighten your home with crystal clear interior and exterior windows.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>
+Commercial Window Cleaning
+</h3>
+
+<p>
+Professional cleaning for storefronts, offices, and businesses.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>
+Screen & Track Cleaning
+</h3>
+
+<p>
+Remove built-up dirt, dust, and debris for a complete clean.
+</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section id="about" class="about">
+
+
+
+
+
+
+    <div class="about-text">
+
+
+        <h2>
+            Why Choose Extra Mile?
+        </h2>
+
+
+        <p>
+            We are a locally owned window cleaning company based in 
+            Claresholm, Alberta. Our mission is simple: provide exceptional 
+            service, communicate clearly, and leave every customer with 
+            windows they are proud of.
+        </p>
+
+
+        <p>
+            Whether you need your home refreshed before selling, seasonal 
+            cleaning, or regular commercial maintenance, our team treats 
+            every job with care.
+        </p>
+
+
+    </div>
+
+
+</section>
+
+
+
+
+<section class="gallery">
+
+<h2>
+Our Results
+</h2>
+
+
+<div class="gallery-grid">
+
+
+<div class="gallery-item">
+
+<img src="images/BEFOREAFTER.png"
+alt="Window cleaning before and after">
+
+</div>
+
+
+
+<div class="gallery-item">
+
+<img src="images/before after 2.png"
+alt="Professional window cleaning before and after">
+
+</div>
+
+
+
+<div class="gallery-item">
+
+<img src="images/Before after 3.png"
+alt="Clean windows before and after">
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<section class="video-section">
+
+
+<h2>
+See Our Work
+</h2>
+
+
+<video class="work-video"
+autoplay
+muted
+loop
+playsinline>
+
+
+<source src="images/WINDOW CLEANING REEL_1.mp4"
+type="video/mp4">
+
+
+</video>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="areas">
+
+
+<h2>
+Serving Southern Alberta
+</h2>
+
+
+<p>
+
+Claresholm • Nanton • High River • Okotoks
+• Fort Macleod • Lethbridge
+and surrounding communities
+
+</p>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section id="contact" class="contact">
+
+
+<h2>
+Request Your Free Quote
+</h2>
+
+
+<p>
+Call or email today and we will get back to you quickly.
+</p>
+
+
+
+<a href="tel:5877283004">
+📞 587-728-3004
+</a>
+
+
+<a href="mailto:extramilewindows@gmail.com">
+✉ extramilewindows@gmail.com
+</a>
+
+
+<p>
+19 Tamarack Road
+<br>
+Claresholm, Alberta
+</p>
+
+
+
+</section>
+
+
+
+
+
+
+
+<footer>
+
+
+<p>
+© 2026 Extra Mile Window Cleaning LTD
+</p>
+
+
+</footer>
+
+
+
+
+
+
+
+
+<a class="mobile-call"
+href="tel:5877283004">
+
+📞 Call Now
+
+</a>
+
+
+
+
+
+<script src="script.js"></script>
+
 
 </body>
 </html>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Extra Mile Window Cleaning LTD",
-  "image": "images/window-cleaning-logo.png",
-  "telephone": "+1-587-728-3004",
-  "email": "extramilewindows@gmail.com",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "19 Tamarack Road",
-    "addressLocality": "Claresholm",
-    "addressRegion": "AB",
-    "addressCountry": "CA"
-  },
-  "url": "https://extramilewindowcleaning.ca",
-  "areaServed": "Southern Alberta"
-}
-</script>
-<script>
-    // Prevent pinch zoom
-    document.addEventListener('touchmove', function (event) {
-        if (event.scale !== undefined && event.scale !== 1) {
-            event.preventDefault();
-        }
-    }, { passive: false });
-
-    // Prevent gesture zoom on iOS Safari
-    document.addEventListener('gesturestart', function (e) {
-        e.preventDefault();
-    });
-    document.addEventListener('gesturechange', function (e) {
-        e.preventDefault();
-    });
-    document.addEventListener('gestureend', function (e) {
-        e.preventDefault();
-    });
-</script>
